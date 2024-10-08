@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutonial2_5", "Tutonial2_5\Tutonial2_5.csproj", "{FAB7ED3D-7DB5-4D2B-B28B-FF61DCAF296D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB7ED3D-7DB5-4D2B-B28B-FF61DCAF296D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB7ED3D-7DB5-4D2B-B28B-FF61DCAF296D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB7ED3D-7DB5-4D2B-B28B-FF61DCAF296D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB7ED3D-7DB5-4D2B-B28B-FF61DCAF296D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AE56393-343E-475F-B015-F5322236C53B}
+	EndGlobalSection
+EndGlobal

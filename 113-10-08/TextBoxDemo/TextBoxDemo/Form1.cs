@@ -14,12 +14,12 @@ namespace TextBoxDemo
 
         private void txtFirstname_TextChanged(object sender, EventArgs e)
         {
-            string fullName;
+            string fullName;//變數一定要先宣告型態後，才可以使用
             string firstName;
             string lastName;
 
             firstName = txtFirstname.Text;
-            lastName = txtFirstname.Text;
+            lastName = txtLastname.Text;
             fullName = lastName + " " + firstName;
 
             lblShow.Text=fullName;

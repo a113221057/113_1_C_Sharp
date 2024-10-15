@@ -100,7 +100,7 @@
             lblShow.AutoSize = true;
             lblShow.BorderStyle = BorderStyle.Fixed3D;
             lblShow.Font = new Font("Microsoft JhengHei UI", 24F);
-            lblShow.Location = new Point(252, 261);
+            lblShow.Location = new Point(250, 259);
             lblShow.Name = "lblShow";
             lblShow.Size = new Size(2, 43);
             lblShow.TabIndex = 6;

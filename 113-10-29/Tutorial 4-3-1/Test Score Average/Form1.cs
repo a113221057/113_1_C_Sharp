@@ -56,7 +56,34 @@ namespace Test_Score_Average
 
 
                     }
+                    switch ((int)average / 10)
+                    {
+                        case 10:
+                        case 9:
+                            grade = "A";
+                            break;
+                        case8:
+                            grade = "B";
+                            break;
+                        case 7:
+                            grade = "C";
+                            break;
+                        case 6:
+                            grade = "D";
+                            break;
+                        default:
+                            grade = "F";
+                            break;
+                    
+
+
+                    }
+                        
                     MessageBox.Show("你的等級是:" + grade);
+                }
+                else
+                {
+                    MessageBox.Show("請輸入0~100之間的數字");
                 }
             }
 

@@ -24,6 +24,7 @@ namespace Friend_File
             {
                 StreamWriter outputFile;
                 outputFile = File.CreateText(@"C: \Users\shu\Desktop\Friends.txt");
+                outputFile=File.AppendText(@"..\..\..\deta\Friends.txt");
                 outputFile.WriteLine(nameTextBox.Text);
                 outputFile.Close();
                 MessageBox.Show("名子已經寫入檔案");
